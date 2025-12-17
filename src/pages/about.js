@@ -28,7 +28,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`Exist \n Modern fashion for everyone`}
         />
 
         <div className={styles.navContainer}>
@@ -49,16 +49,15 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Exist is a new sustainable fashion brand launching in Portland, Oregon.
+              We make timeless everyday luxury clothing with minimal environmental impact.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+              Founded in 2025, we're committed to ethical manufacturing and sustainable
+              materials. Every piece is designed in Portland and produced using
+              eco-friendly practices and locally-sourced materials whenever possible.
             </p>
           </div>
         </Container>
@@ -72,47 +71,39 @@ const AboutPage = (props) => {
             <h3>Our Values</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+                At Exist, we believe fashion shouldn't cost the earth. Our mission
+                is to create beautiful, durable clothing that respects both people
+                and the planet. We're building a new model for fashion - one that
+                prioritizes sustainability, transparency, and quality over fast trends
+                and mass production.
               </p>
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Sustainable and eco-friendly materials</li>
+                <li>Ethical manufacturing practices</li>
+                <li>Transparent supply chain</li>
+                <li>Quality over quantity</li>
               </ol>
               <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
             </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+                Launched from Portland, Oregon in 2025, Exist is committed to
+                sustainable fashion from the ground up. We use organic cotton,
+                recycled materials, and plant-based dyes. Our packaging is 100%
+                recyclable, and we partner with local manufacturers to reduce
+                our carbon footprint.
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+                Every Exist garment is designed to last. We believe in slow fashion -
+                creating pieces you'll wear for years, not seasons. Our Portland
+                design studio works closely with ethical manufacturers who share
+                our commitment to fair wages and safe working conditions.
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+                We're transparent about our supply chain and continuously working
+                to reduce our environmental impact. Join us in reimagining what
+                fashion can be.
               </p>
             </div>
           </div>

@@ -102,25 +102,17 @@
 
 .contentBottom {
     margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.settings {
     display: flex;
-}
-
-.settings > div {
-    max-width: 180px;
-}
-
-.settings > div:first-child {
-    margin-right: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .creditCardContainer {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
 .creditCardContainer > img {
@@ -148,14 +140,15 @@
 
 .copyrightContainer {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .copyrightContainer span{
     color: var(--standard-white);
     display: block;
-    margin-top: 32px;
+    margin-top: 0;
     font-size: 12px;
     line-height: 15px;
 }
@@ -207,20 +200,18 @@
     }
 
     .contentBottom {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
     }
 
     .copyrightContainer {
         margin-top: 40px;
         align-items: center;
+        text-align: center;
     }
 
     .newsLetterForm {
         margin-bottom: 30px;
-    }
-
-    .settings > div {
-        max-width: unset;
     }
 
     .footerLinks {
@@ -233,12 +224,6 @@
 
     .footerLinkContainer {
         margin-bottom: 16px;
-    }
-
-    .settings {
-        display: grid;
-        grid-template-columns: 0.55fr 0.45fr;
-        gap: 16px;
     }
 
     .socialIconContainer {

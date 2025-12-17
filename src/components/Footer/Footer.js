@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 import Accordion from '../Accordion';
 import Container from '../Container';
-import Dropdown from '../Dropdown/Dropdown';
 import FormInputField from '../FormInputField/FormInputField';
 import Icon from '../Icons/Icon';
 import Button from '../Button';
@@ -135,13 +134,6 @@ const Footer = (prop) => {
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
-              <Dropdown
-                label={'Country/Region'}
-                optionList={Config.currencyList}
-              />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
-            </div>
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>
                 {Config.paymentOptions.amex && (
@@ -167,15 +159,22 @@ const Footer = (prop) => {
                 )}
               </div>
               <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
-                </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
-                </Button>
+                {new Date().getFullYear()} © Exist. Made by Mac Apps LLC
               </span>
+              <a 
+                href="https://macapps.dev" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ 
+                  color: 'var(--standard-white)', 
+                  textDecoration: 'underline',
+                  fontSize: '12px',
+                  marginTop: '8px',
+                  display: 'block'
+                }}
+              >
+                Check out the website creator
+              </a>
             </div>
           </div>
         </Container>

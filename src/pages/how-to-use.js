@@ -43,9 +43,9 @@ const HowToUsePage = (props) => {
                 (Matter.).
               </p>
               <p>
-                The Sydney theme is built for Netlify as an ecommerce theme
+                The Exist theme is built for Netlify as an ecommerce theme
                 suitable for JAMStack archtitecture. This theme is free to use
-                through Netlify’s GitHub account, and can be used with any
+                through Netlify's GitHub account, and can be used with any
                 ecommerce platform that support a headless architecture.
               </p>
               <p>
